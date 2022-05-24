@@ -4,7 +4,7 @@ Created on Sat May 21 18:12:22 2022
 
 @author: Siddhartha Sarkar
 """
-
+import nltk_download_utils
 import streamlit as st 
 import streamlit.components.v1 as stc
 from sklearn.linear_model import LogisticRegression
