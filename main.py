@@ -11,7 +11,6 @@ from sklearn.linear_model import LogisticRegression
 import spacy
 import pickle
 import random
-import docs
 from spacy import displacy
 import docx
 from spacy.lang.en.stop_words import  STOP_WORDS
@@ -20,12 +19,10 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer,CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-import doc
 from PyPDF2 import PdfFileReader
 import re
 import nltk
 from nltk.corpus import stopwords
-stop = stopwords.words('english')
 from spacy.matcher import Matcher
 #nltk.download('stopwords')
 #nltk.download('wordnet')
