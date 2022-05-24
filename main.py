@@ -22,7 +22,6 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from PyPDF2 import PdfFileReader
 import re
 import nltk
-from nltk.corpus import stopwords
 from spacy.matcher import Matcher
 #nltk.download('stopwords')
 #nltk.download('wordnet')
