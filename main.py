@@ -5,7 +5,6 @@ Created on Sat May 21 18:12:22 2022
 @author: Siddhartha Sarkar
 """
 
-python -m spacy download en_core_web_trf
 import streamlit as st 
 import streamlit.components.v1 as stc
 from sklearn.linear_model import LogisticRegression
@@ -45,7 +44,7 @@ from pandas.plotting import scatter_matrix
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
-nlp = spacy.load('en_core_web_trf')
+nlp = spacy.load('en_core_web_sm')
 
 from sklearn.preprocessing import LabelEncoder
 le_encoder=LabelEncoder()
