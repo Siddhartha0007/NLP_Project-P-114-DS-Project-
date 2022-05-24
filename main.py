@@ -4,7 +4,8 @@ Created on Sat May 21 18:12:22 2022
 
 @author: Siddhartha Sarkar
 """
-
+!python -m spacy download en
+!python -m spacy download en_core_web_trf
 import streamlit as st 
 import streamlit.components.v1 as stc
 from sklearn.linear_model import LogisticRegression
