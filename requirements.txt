@@ -12,3 +12,4 @@ scikit_learn==1.1.1
 spacy==3.3.0
 streamlit==1.9.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.3.0/en_core_web_sm-3.3.0.tar.gz#egg=en_core_web_sm
+protobuf~=3.19.0
